@@ -1,0 +1,92 @@
+ 
+<html>
+    <head>
+      <title>Emotion To Emoji</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Nova+Cut&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+  
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+  
+    <body>
+    <div class="container">
+    
+      <center>
+  
+        <h1 id = "title">HAND POSE
+          <br>
+          <span id = "emotionstrip">&#9757;</span>
+          <span id = "emotionstrip">&#9996;</span>
+          <span id = "emotionstrip">&#128406;</span>
+          <span id = "emotionstrip">&#129304;</span>
+          <span id = "emotionstrip">&#128076;</span>
+          <br>
+        </h1>
+  
+        <p style="font-size: 22px;" id = "po">
+          <h3 id="tak">Take your selfie to generate emoji</h3>
+  
+          <h3 style="color: rgb(247, 255, 25)" class="sec1">IS IT A YO?</h3>
+  
+          <h3 style="color: rgb(64, 236, 34)" class="sec1">IS IT A FINGER SPLIT??</h3>
+  
+          <h3 style="color: rgb(19, 131, 229)" class="sec1">WHAT ARE YOU POINTING AT???</h3>
+  
+        </p>
+  
+        <div class="col-md-4 col-sm-12 col-xs-12" id = "div1">
+          <h3 class = "NAME">CAMERA</h3>
+          <br><br>
+            <div id = "CAMERA"></div>
+          <br><br>
+          <button id="SNAP" onclick = "snap()">CLICK</button>
+  
+          <br><br>
+  
+        </div>
+  
+        <div class="col-md-4 col-sm-12 col-xs-12" id = "div2">
+  
+          <p style="font-size: 22px;" id="sec1">
+  
+            <h2 id = "dis1" class = "emotion_name">PREDICTION 1</h2>
+            <br>
+            <h3 id="pro1"></h3>
+            <br>
+            <h2 id = "dis2" class = "emotion_name">PREDICTION 2</h2>
+            <br>
+            <h3 id="pro2"></h3>
+          </p>
+  
+          <br><br>
+  
+        </div>
+  
+        <div class="col-md-4 col-sm-12 col-xs-12" id = "div1">
+          <h3 class = "NAME">RESULT</h3>
+          <br><br>
+            <div id = "RESULT"></div>
+          <br><br>
+          <button id="EMOTION" onclick = "handslap()">CHECK HAND POSE</button>
+  
+          <br><br>
+  
+        </div>
+      </center>
+  
+    </div>
+  
+  <script src="main.js"></script>
+  
+    </body>
+  </html>
