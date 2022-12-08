@@ -4,8 +4,8 @@ hatext2 = "";
 
 
 Webcam.set({
-    height: 300,
-    width: 250,
+    height: 200,
+    width: 270,
     image_format: "png",
     png_quality: 120
 });
