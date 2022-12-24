@@ -1,49 +1,47 @@
-body
-{
+body {
   color: white;
   background: rgb(164, 29, 29);
 }
-span
-{
+
+span {
   font-size: 27px;
 }
-#CAMERA , #RESULT
-{
+
+#CAMERA,
+#RESULT {
   background-color: teal;
   border: 2px dashed black;
   width: 270px;
-  height: 200px; 
+  height: 200px;
 }
-#title{
+
+#title {
   font-family: 'Cookie', cursive;
   font-size: 100px;
 }
-.emotion_name
-{
+
+.emotion_name {
   font-family: 'Nova Cut', cursive;
   font-size: 40px;
 }
-.pro1
-{
-  font-size:48px;
-}
 
-#SNAP , #EMOTION{
+#SNAP,
+#EMOTION {
   font-family: 'Newsreader', serif;
   color: black;
   background-color: lightblue;
 }
-.NAME{
+
+.NAME {
   font-family: 'Nova Cut', cursive;
 }
-.sec1{
-  font-size:30px;
+
+.sec1 {
+  font-size: 30px;
   font-family: 'UnifrakturCook', cursive
 }
-#tak{
-    font-family: 'Mea Culpa', cursive;
-    font-size: 50px;
-}
-#po{
-    background-color: teal;
+
+#tak {
+  font-family: 'Mea Culpa', cursive;
+  font-size: 50px;
 }
